@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/logo preta.ico" />
+    <script type="text/javascript" src='home.js'></script>
+    <title>Ianes Tech</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <nav class="fixed">
+            <img src="img/logo preta com nome.png" width="160" height="90" />
+            <p id="Log"></p>
+            <div class="conteiner">
+                <a href="#home" class="botton-inter item8"><span>HOME</span></a>
+                <a href="#sobre" class="botton-inter item8"><span>SOBRE</span></a>
+                <a href="#cursos" class="botton-inter item8"><span>CURSOS</span></a>
+                <a href="#contato" class="botton-inter item8"><span>CONTATO</span></a>
+                <a href="" class="botton-inter item8"><span>LOGIN</span></a>
+                <button class="botton-inter item8" id="sair" onclick="sair"><span>Sair</span></button>
+            </div>
+        </nav>
+
+        <section>
+            <header id="home">
+                <img src="img/logo branca.png" width="300" height="300" class="imagem">
+                <h1>O FUTURO <br />
+                    COMEÇA AQUI!</h1>
+                <br />
+                <a href="#cursos" class="botao">VER MAIS</a>
+            </header>
+        </section>
+
+        <section id="sobre">
+            <h2>Bem-Vindo á Ianes Tech</h2>
+            <hr class="hr" size="10px">
+            <br><br>
+            <p id="p1">QUEM SOMOS?</p>
+            <p>Somos a empresa IANES TECH, estamos no mercado á aproximadamente 10 anos<br />
+                Ofertando diversos cursos <strong>GRATUITOS</strong> na área da tecnologia, ajudando assim,<br />
+                todos aqueles que tem um sonho em comum - viver do que ama!.<br />
+            </p>
+        </section>
+
+        <section id="cursos">
+            <h2>NOSSOS CURSOS GRATUITOS</h2>
+
+            <div>
+                <a class="animacaoCurso" href="../Curso Design Gráfico/introdução.html"><img
+                        src="img/designer gráfico.png" width="300" height="300"></a>
+
+            </div>
+
+            <div>
+                <a class="animacaoCurso" href="#"><img src="img/excel basico.png" width="300" height="300"></a>
+
+            </div>
+
+            <div>
+                <a class="animacaoCurso" href="#"><img src="img/curso html.png" width="300" height="300"></a>
+
+            </div>
+
+        </section>
+
+        <section id="contato">
+            <a class="contate">Contate-nos</a>
+            <p></p>
+
+            <div class="feedback">
+
+                <img src="./img/logo preta.png" alt="" class="logo">
+
+                <form>
+                    <label>Nome completo:</label>
+                    <br />
+                    <br />
+                    <input type="text" name="nome" id="nome" placeholder="Informe seu nome completo" />
+                    <br />
+                    <br />
+                    <label>Email:</label>
+                    <br />
+                    <br />
+                    <input type="email" name="email" id="email" placeholder="Informe seu email" />
+                    <br />
+                    <br />
+                    <label>Comentário:</label>
+                    <br />
+                    <br />
+                    <textarea id="coment" name="coment" id="coment" placeholder="Digite aqui"></textarea>
+
+                    <div class="form">
+                        <button type="reset" id="limpar" name="limpar" value="LIMPAR" class="reset">Reset</button>
+                        <button name="enviar" value="ENVIAR" class="envio"> Enviar </button>
+                    </div>
+                </form>
+            </div>
+
+    </div>
+    </section>
+</body>
+
+</html>
